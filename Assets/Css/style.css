@@ -80,3 +80,13 @@ h1, h2, h3, h4,h5,p{
 .heart{
     color: red;
 }
+.user-options button{
+    margin-top: 1rem;
+    font-family:'lora', "arial" ;
+    font-weight: bold;
+    background-color: #F59E0B;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}

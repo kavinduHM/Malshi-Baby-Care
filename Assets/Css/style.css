@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1, h2, h3, h4,h5,{
+h1, h2, h3, h4,h5,p{
     font-family: 'lora', "arial";
 }
 
@@ -19,11 +19,12 @@ h1, h2, h3, h4,h5,{
 .login-container h1{
     font-size: 2rem;
     font-weight: 600;
+    margin-top: 5px;
 } 
 .login-container h2{
     font-size: 1.5rem;
     font-weight: 200;
-    padding-top: 20px;
+    padding-top: 5px;
 } 
 .inner-login{
     display: flex;
@@ -68,4 +69,14 @@ h1, h2, h3, h4,h5,{
 #pass-toggle{
     cursor:pointer;
     max-width: fit-content;
+}
+.copyright{
+    margin-top: 1rem;
+}
+.copyright img{
+    vertical-align: middle;
+}
+
+.heart{
+    color: red;
 }

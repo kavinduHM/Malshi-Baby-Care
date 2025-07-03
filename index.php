@@ -23,6 +23,12 @@
                 <input type="password" name="password" id="password" required placeholder="Enter Password">
                 <span id="pass-toggle">👁</span>
                 <input type="submit" value="LogIn" id="submit-button-login">
+                <?php if (isset($_GET['error'])): ?>
+                    <p style="color: red; margin-top: 0.5rem;">
+                <?php echo htmlspecialchars(urldecode($_GET['error'])); ?>
+    </p>
+<?php endif; ?>
+
             </form>
             <div class="user-options">
                 <button id="" class="user-op-but">Forgot Password?</button>

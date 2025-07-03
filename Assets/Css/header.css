@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; 
+}
+
+
+h1, h2, h3, h4,h5,p, li{
+    font-family: 'lora', "arial";
+}
+
+.header-container{
+    min-width: 100vw;
+    max-height: 10vh;
+    padding: 1rem 2rem;
+    background-color:#F8F5FE ;
+}
+.header-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-container li, a {
+    list-style: none;
+    text-decoration: none;
+    background-color:#F59E0B ;
+}

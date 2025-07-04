@@ -18,7 +18,7 @@ body{
 
 .header-container{
     min-width: 100vw;
-    max-height: 10vh;
+    min-height: 5vh;
     padding: 1rem 2rem;
     background-color:white ;
 }
@@ -51,4 +51,10 @@ body{
 }
 .header-container li:nth-child(5) a {
     color: white !important;
+}
+.timeout-message{
+    font-size: 0.7rem;
+}
+.timout-holder{
+    text-align: right;
 }

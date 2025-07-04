@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4,h5,p{
+    font-family: 'lora', "arial";
+}
+
+.dash-wrap{
+    min-width: 100vw;
+    min-height: 90vh;
+    padding: 10px;
+    background-image: url(../Images/loginbg.jpg);
+    background-size: cover;
+}
+.greeting{
+    font-weight: 700;
+    font-size: 0.9rem;
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    padding: 10px;
+    background-color: #EEC643;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px white;
+}
+.greeting i{
+    padding-left: 10px;
+}

@@ -99,3 +99,12 @@ a{
     cursor: pointer;
     border-radius: 10px;
 }
+/* Footer */
+footer{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}

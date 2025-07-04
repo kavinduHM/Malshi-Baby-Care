@@ -23,4 +23,11 @@ if (!isset($_SESSION['username'])) {
     header("Location: ../index.php");
     exit;
 }
+
+$remaining_time = $timeout_duration - (time() - $_SESSION['last_activity']);
+if ($remaining_time < 0) $remaining_time = 0;
+
+echo "<script>var sessionSecondsLeft = $remaining_time;</script>";
+
+
 ?>

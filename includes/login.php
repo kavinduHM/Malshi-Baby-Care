@@ -30,3 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     header("Location: ../index.php");
     exit;
 }
+// After successful login
+session_start();
+$_SESSION['username'] = $row['username'];  // or whatever your username field is
+

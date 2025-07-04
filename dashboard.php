@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - Malshi Baby Care</title>
     <?php 
-    require 'includes/session.php';    
+    require 'includes/session.php';
     ?>
 </head>
 <body>
+    <?php 
+        require_once './header.php'
+    ?>
     
 </body>
 </html>

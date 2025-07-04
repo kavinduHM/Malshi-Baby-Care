@@ -33,7 +33,7 @@
             <li><a href="sale.php"><i class="fa-solid fa-cart-plus"></i>Create A Sale</a></li>
             <li><a href="inventory.php"><i class="fa-solid fa-boxes-stacked"></i>Inventory</a></li>
             <li><a href="sales-reports.php"><i class="fa-solid fa-calendar-check"></i>Sales Reports</a></li>
-            <li><a href="logout.php"><i class="fas fa-right-from-bracket"></i> Logout</a></li>
+            <li><a href="./includes/logout.php"><i class="fas fa-right-from-bracket"></i> Logout</a></li>
         </ul>
         <div class="timout-holder"><p class="timeout-message">Auto logout: <span id="countdown">--:--</span></p></div>
         
